@@ -1,6 +1,10 @@
 {
 	"name": "machy8/webloader-bundle",
 	"description": "Symfony Bundle for the machy8/webloader (https://github.com/Machy8/webloader) package.",
+	"keywords": [
+		"webloader", "bundle", "css", "javascript", "symfony-bundle",
+		"symfony-flex", "symfony", "frontend", "build-tool"
+	],
 	"type": "symfony-bundle",
 	"license": "BSD-3-Clause",
 	"require": {
