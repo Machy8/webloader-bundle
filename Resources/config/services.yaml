@@ -1,0 +1,9 @@
+services:
+    web_loader:
+        class: WebLoader\Engine
+        arguments: ["%kernel.project_dir%/public/webtemp", "%kernel.project_dir%/public"]
+        autowire: true
+        public: true
+
+    WebLoader\Engine:
+        alias: web_loader

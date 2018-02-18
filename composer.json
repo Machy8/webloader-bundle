@@ -1,0 +1,14 @@
+{
+	"name": "machy8/webloader-bundle",
+	"description": "Symfony Bundle for the machy8/webloader (https://github.com/Machy8/webloader) package.",
+	"type": "symfony-bundle",
+	"license": "BSD-3-Clause",
+	"require": {
+		"machy8/webloader": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"WebLoader\\WebLoaderBundle\\": ""
+		}
+	}
+}
